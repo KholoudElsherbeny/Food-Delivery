@@ -1,0 +1,596 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(223, 189, 148);
+}
+/*   star Nav  */
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(214, 114, 77);
+  position: fixed;
+  z-index: 1;
+}
+nav .photo1 {
+  width: 100px;
+  height: 60px;
+  border-radius: 5px;
+  position: relative;
+  left: 250px;
+  top: 5px;
+}
+nav .logo1 {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  left: 320px;
+  bottom: 20px;
+}
+nav .logo1 li {
+  display: inline-block;
+}
+nav .logo1 li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  padding: 0 40px;
+}
+nav .logo1 li a:hover {
+  color: brown;
+}
+/* End NAV */
+/* star myAccount */
+.myAccount {
+  width: 260px;
+  height: 200px;
+  background-color: #fff;
+  position: relative;
+  left: 72%;
+  top: 5px;
+  border-radius: 10px;
+  display: none;
+}
+.myAccount ul {
+  list-style: none;
+}
+.myAccount ul li {
+  padding: 8px 10px;
+  position: relative;
+  left: 10px;
+}
+.myAccount ul li a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #ccc;
+}
+.myAccount ul li a i {
+  color: brown;
+  position: relative;
+  right: 18px;
+}
+.myAccount ul li:hover {
+  background-color: rgb(214, 114, 77);
+  width: 242px;
+  border-radius: 12px;
+}
+.ShowContent {
+  display: block;
+}
+/*  End myAccount */
+/*  star model1  */
+.model1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/back3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 90vh;
+  position: relative;
+  top: 70px;
+}
+.model1 h1 {
+  text-align: center;
+  position: relative;
+  top: 220px;
+  color: #fff;
+  font-size: 35px;
+}
+/* star Search */
+.model1 .enter {
+  display: inline-block;
+  width: 600px;
+  height: 50px;
+  position: relative;
+  left: 400px;
+  top: 250px;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+}
+.model1 .enter i {
+  display: inline-block;
+  font-size: 30px;
+  color: brown;
+  position: relative;
+  right: 50px;
+}
+.model1 .enter #research {
+  position: relative;
+  left: 50px;
+}
+.model1 input {
+  border: none;
+  width: 400px;
+  background-color: #fff;
+  font-size: 20px;
+  position: relative;
+  right: 43px;
+  bottom: 5px;
+}
+/* End Search */
+.model1 .go {
+  width: 160px;
+  height: 60px;
+  background-color: brown;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  left: 450px;
+  top: 250px;
+}
+.model1 .go:hover {
+  background-color: rgb(214, 114, 77);
+}
+/* End Model1 */
+/* Star Model2 */
+.model2 img {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 600px;
+  top: 100px;
+}
+.model2 h3 {
+  color: rgb(214, 114, 77);
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 110px;
+}
+.model2 h4 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 120px;
+}
+/* End Model2 */
+/* Star Model3 */
+.model3 {
+  height: 670px;
+  position: relative;
+  top: 150px;
+}
+.model3 h5 {
+  font-size: 35px;
+  color: brown;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.tap1 {
+  width: 480px;
+  height: 300px;
+  background-color: rgb(255, 247, 247);
+  border-radius: 15px;
+  position: relative;
+  left: 520px;
+  top: 50px;
+}
+.tap1 hr {
+  width: 480px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: rgb(214, 114, 77);
+}
+.tap1 h2 {
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.tap1 p {
+  font-size: 18px;
+  color: rgb(122, 120, 120);
+  position: relative;
+  left: 3px;
+  top: 20px;
+  text-align: justify;
+  line-height: 100%;
+}
+.tap1 img {
+  width: 200px;
+  height: 120px;
+  position: relative;
+  left: 270px;
+  top: 30px;
+}
+.tap1 img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+/* start tap2  */
+.tap2 {
+  width: 480px;
+  height: 300px;
+  background-color: rgb(255, 247, 247);
+  border-radius: 15px;
+  position: relative;
+  left: 20px;
+  bottom: 100px;
+}
+.tap2 hr {
+  width: 480px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: rgb(250, 120, 90);
+}
+.tap2 h2 {
+  font-size: 20px;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+.tap2 p {
+  font-size: 18px;
+  color: rgb(122, 120, 120);
+  position: relative;
+  left: 3px;
+  top: 20px;
+  text-align: justify;
+  line-height: 100%;
+}
+.tap2 img {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  left: 270px;
+  top: 20px;
+}
+.tap2 img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+/* start tap3 */
+.tap3 {
+  width: 480px;
+  height: 300px;
+  background-color: rgb(255, 247, 247);
+  border-radius: 15px;
+  position: relative;
+  left: 1010px;
+  bottom: 400px;
+}
+.tap3 hr {
+  width: 480px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: rgb(200, 100, 50);
+}
+.tap3 h2 {
+  font-size: 20px;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+.tap3 p {
+  font-size: 18px;
+  color: rgb(122, 120, 120);
+  position: relative;
+  left: 3px;
+  top: 20px;
+  text-align: justify;
+  line-height: 100%;
+}
+.tap3 img {
+  width: 200px;
+  height: 120px;
+  position: relative;
+  left: 270px;
+  top: 10px;
+}
+.tap3 img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+/* start tap3 */
+.tap4 {
+  width: 480px;
+  height: 300px;
+  background-color: rgb(255, 247, 247);
+  border-radius: 15px;
+  position: relative;
+  left: 520px;
+  bottom: 530px;
+}
+.tap4 hr {
+  width: 480px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: rgb(255, 134, 127);
+}
+.tap4 h2 {
+  font-size: 20px;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+.tap4 p {
+  font-size: 18px;
+  color: rgb(122, 120, 120);
+  position: relative;
+  top: 30px;
+  left: 3px;
+  text-align: justify;
+  line-height: 100%;
+}
+.tap4 img {
+  width: 180px;
+  height: 100px;
+  position: relative;
+  left: 290px;
+  top: 40px;
+}
+.tap4 img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+/* End Model3 */
+h6 {
+  text-align: center;
+  position: relative;
+  top: 270px;
+  color: brown;
+  font-size: 40px;
+}
+/*  star model4 */
+.model4 {
+  position: relative;
+  top: 320px;
+  left: 180px;
+  width: 80%;
+  height: 400px;
+}
+.model4 .photo2 {
+  width: 450px;
+  height: 400px;
+  display: inline-block;
+}
+.model4 .photo2 img {
+  width: 480px;
+  height: 400px;
+  border-radius: 10px;
+}
+.model4 .photo2 img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+.model4 .body {
+  width: 650px;
+  height: 400px;
+  display: inline-block;
+  position: relative;
+  left: 100px;
+}
+.model4 .body i {
+  font-size: 45px;
+  color: rgb(78, 36, 36);
+  position: relative;
+  bottom: 25px;
+}
+.model4 .body h4 {
+  font-size: 30px;
+  display: inline-block;
+  color: rgb(214, 114, 77);
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+}
+.model4 .body p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 120%;
+  position: relative;
+  bottom: 15px;
+  color: black;
+}
+/*  End Model4  */
+/*  star model5 */
+.model5 {
+  position: relative;
+  top: 360px;
+  left: 180px;
+  width: 80%;
+  height: 400px;
+}
+.model5 .body2 {
+  width: 650px;
+  height: 400px;
+  display: inline-block;
+  position: relative;
+  left: 20px;
+}
+.model5 .body2 i {
+  font-size: 45px;
+  color: rgb(78, 36, 36);
+  position: relative;
+  bottom: 20px;
+}
+.model5 .body2 h4 {
+  font-size: 30px;
+  display: inline-block;
+  color: rgb(214, 114, 77);
+  position: relative;
+  bottom: 25px;
+  left: 20px;
+}
+.model5 .body2 p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 120%;
+  position: relative;
+  bottom: 15px;
+  color: black;
+}
+.model5 .photo3 {
+  width: 450px;
+  height: 400px;
+  display: inline-block;
+}
+.model5 .photo3 img {
+  width: 480px;
+  height: 400px;
+  border-radius: 10px;
+  position: relative;
+  left: 80px;
+}
+.model5 .photo3 img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+/*  End Model5 */
+/*  star model6 */
+.model6 {
+  position: relative;
+  top: 390px;
+  left: 180px;
+  width: 80%;
+  height: 400px;
+}
+.model6 .photo3 {
+  width: 450px;
+  height: 400px;
+  display: inline-block;
+}
+.model6 .photo3 img {
+  width: 480px;
+  height: 400px;
+  border-radius: 10px;
+}
+.model6 .photo3 img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+.model6 .body3 {
+  width: 650px;
+  height: 400px;
+  display: inline-block;
+  position: relative;
+  left: 100px;
+}
+.model6 .body3 i {
+  font-size: 45px;
+  color: rgb(78, 36, 36);
+  position: relative;
+  bottom: 15px;
+}
+.model6 .body3 h4 {
+  font-size: 30px;
+  display: inline-block;
+  color: rgb(214, 114, 77);
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+.model6 .body3 p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 120%;
+  position: relative;
+  bottom: 10px;
+  color: black;
+}
+/*  End Model6  */
+/* start of footer */
+footer {
+  background-color: #302c2c;
+  color: white;
+  padding: 20px;
+  margin-top: 460px;
+  height: 250px;
+  display: flex;
+}
+span {
+  color: rgb(214, 114, 77);
+}
+footer h1 {
+  color: rgb(214, 114, 77);
+  text-shadow: rgb(8, 8, 8) 1px 1px 3px;
+  font-family: "Noto Sans", sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+footer p {
+  color: beige;
+  padding: 3px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-family: "Noto Sans", sans-serif;
+}
+footer .pc {
+  width: 400px;
+}
+footer input {
+  outline: none;
+  border: none;
+}
+footer .div3 {
+  width: 33%;
+}
+.icon ul li {
+  position: relative;
+  display: block;
+  list-style: none;
+  font-size: 35px;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(214, 114, 77);
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  transition: 0.5s;
+  box-shadow: 0 0 15px #171515;
+  text-shadow: 0 0 5px #171515;
+}
+.icon ul {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-left: 130px;
+}
+.icon ul li a {
+  color: #171515;
+}
+.icon ul li:hover {
+  font-size: 30px;
+  box-shadow: 0 0 15px rgb(214, 114, 77);
+  text-shadow: 0 0 15px rgb(214, 114, 77);
+  background-color: #171515;
+}
+.lastone {
+  color: beige;
+  padding: 3px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-family: "Noto Sans", sans-serif;
+  background-color: #302c2c;
+  padding-bottom: 30px;
+}
+/* end of footer */

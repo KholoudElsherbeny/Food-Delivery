@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(223, 189, 148);
+}
+/*   star Nav  */
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(214, 114, 77);
+  position: fixed;
+  z-index: 1;
+}
+nav .photo1 {
+  width: 100px;
+  height: 60px;
+  border-radius: 5px;
+  position: relative;
+  left: 250px;
+  top: 5px;
+}
+nav .logo1 {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  left: 320px;
+  bottom: 20px;
+}
+nav .logo1 li {
+  display: inline-block;
+}
+nav .logo1 li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  padding: 0 40px;
+}
+nav .logo1 li a:hover {
+  color: brown;
+}
+/* End NAV */
+/* star myAccount */
+.myAccount {
+  width: 260px;
+  height: 200px;
+  background-color: #fff;
+  position: relative;
+  left: 69%;
+  top: 5px;
+  border-radius: 10px;
+  display: none;
+}
+.myAccount ul {
+  list-style: none;
+}
+.myAccount ul li {
+  padding: 8px 10px;
+  position: relative;
+  left: 10px;
+}
+.myAccount ul li a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #ccc;
+}
+.myAccount ul li a i {
+  color: brown;
+  position: relative;
+  right: 18px;
+}
+.myAccount ul li:hover {
+  background-color: rgb(214, 114, 77);
+  width: 242px;
+  border-radius: 12px;
+}
+.ShowContent {
+  display: block;
+}
+/*  End myAccount */
+
+/* our work section */
+/* our work section */
+.ourworks {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  top: 100px;
+}
+.ourworks h1 {
+  color: brown;
+  font-size: 30px;
+  text-align: left;
+  position: relative;
+  top: 18px;
+  left: 10px;
+  font-family: "Noto Sans", sans-serif;
+  text-shadow: 2px 2px 4px black;
+}
+.ourworks p {
+  font-size: 25px;
+  color: rgb(214, 114, 77);
+  margin: auto;
+  position: relative;
+  top: 15px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: "Noto Sans", sans-serif;
+  text-shadow: 2px 2px 4px black;
+}
+.ourworks .design {
+  border: #ccc solid 5px;
+}
+.ourworks .pic1,
+.pic2,
+.pic3 {
+  position: relative;
+  bottom: 15px;
+}
+.ourworks .pic1 div img,
+.pic2 div img,
+.pic3 div img {
+  width: 220px;
+  height: 200px;
+  transition: 0.4s;
+}
+.ourworks .pic1 div:hover,
+.pic2 div:hover,
+.pic3 div:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+.ourworks .pic1 {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-around;
+}
+.ourworks .pic2 {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+.ourworks .pic3 {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+.ourworks h2 {
+  color: brown;
+  text-shadow: 2px 2px 4px black;
+  font-size: 25px;
+  text-align: left;
+  font-family: "Noto Sans", sans-serif;
+  text-shadow: 1px 1px 1px rgb(214, 114, 77);
+}
+.ourworks h3 {
+  color: brown;
+  text-shadow: 2px 2px 4px black;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Noto Sans", sans-serif;
+  text-shadow: 2px 2px 4px rgb(214, 114, 77);
+}
+.ourworks div {
+  transition: 0.4s;
+}
+
+/* end of ourworks */
+
+/* start of footer */
+footer {
+  background-color: #302c2c;
+  color: white;
+  padding: 20px;
+  margin-top: 140px;
+  height: 250px;
+  display: flex;
+}
+span {
+  color: rgb(214, 114, 77);
+}
+footer h1 {
+  color: rgb(214, 114, 77);
+  text-shadow: rgb(8, 8, 8) 1px 1px 3px;
+  font-family: "Noto Sans", sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+footer p {
+  color: beige;
+  padding: 3px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-family: "Noto Sans", sans-serif;
+}
+footer .pc {
+  width: 400px;
+}
+footer input {
+  outline: none;
+  border: none;
+}
+footer .div3 {
+  width: 33%;
+}
+.icon ul li {
+  position: relative;
+  display: block;
+  list-style: none;
+  font-size: 35px;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(214, 114, 77);
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  transition: 0.5s;
+  box-shadow: 0 0 15px #171515;
+  text-shadow: 0 0 5px #171515;
+}
+.icon ul {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-left: 130px;
+}
+.icon ul li a {
+  color: #171515;
+}
+.icon ul li:hover {
+  font-size: 30px;
+  box-shadow: 0 0 15px rgb(214, 114, 77);
+  text-shadow: 0 0 15px rgb(214, 114, 77);
+  background-color: #171515;
+}
+.lastone {
+  color: beige;
+  padding: 3px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-family: "Noto Sans", sans-serif;
+  background-color: #302c2c;
+  padding-bottom: 30px;
+}
+/*.............................end of footer....................*/
